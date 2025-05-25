@@ -9,6 +9,7 @@ return [
             'navigation_label' => 'filament-schedule-monitor::translations.monitored_scheduled_task.navigation_label',
             'navigation_icon' => 'heroicon-o-cpu-chip',
             'navigation_sort' => null,
+            'navigation_cluster' => null,
         ],
         'monitored_scheduled_task_log_item' => [
             'label' => 'filament-schedule-monitor::translations.monitored_scheduled_task_log_item.label',
@@ -17,6 +18,7 @@ return [
             'navigation_label' => 'filament-schedule-monitor::translations.monitored_scheduled_task_log_item.navigation_label',
             'navigation_icon' => 'heroicon-o-cpu-chip',
             'navigation_sort' => null,
+            'navigation_cluster' => null,
         ]
     ]
 ];

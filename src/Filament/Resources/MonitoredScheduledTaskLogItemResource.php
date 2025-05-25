@@ -49,6 +49,11 @@ class MonitoredScheduledTaskLogItemResource extends Resource
         return config('filament-schedule-monitor.resources.monitored_scheduled_task_log_item.navigation_sort');
     }
 
+    public static function getCluster(): ?string
+    {
+        return config('filament-schedule-monitor.resources.monitored_scheduled_task_log_item.navigation_cluster', null);
+    }
+
     public static function table(Table $table): Table
     {
         return $table
